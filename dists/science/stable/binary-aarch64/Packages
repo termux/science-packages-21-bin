@@ -1,0 +1,293 @@
+Package: cgal
+Architecture: aarch64
+Installed-Size: 44080
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.14.1-1
+Homepage: https://www.cgal.org/
+Depends: boost, libc++, libgmp, libmpfr, zlib
+Description: Computational Geometry Algorithms Library
+Filename: aarch64/cgal_4.14.1-1_aarch64.deb
+SHA1: ec915eb812bb869e1dcea40cca2563bdbed4bd73
+SHA256: 7a715cc72724ea80041d1283d23b82fec0f6175b6efcc8e70200a813b5e5bb56
+Size: 4673010
+
+Package: double-conversion
+Architecture: aarch64
+Installed-Size: 232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.5
+Homepage: https://github.com/google/double-conversion
+Description: Binary-decimal and decimal-binary routines for IEEE doubles
+Filename: aarch64/double-conversion_3.1.5_aarch64.deb
+SHA1: f3ce6f58d919b6483c3ec9859614388fa651c14f
+SHA256: 0e19db0558c8ca862b234a28f3296f9be54eafa831e1833c2d93f51a94d47152
+Size: 45498
+
+Package: eigen
+Architecture: aarch64
+Installed-Size: 7980
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.7-2
+Homepage: http://eigen.tuxfamily.org
+Breaks: eigen-dev
+Replaces: eigen-dev
+Description: Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms
+Filename: aarch64/eigen_3.3.7-2_aarch64.deb
+SHA1: c188665288c1c30ba9a91148bdb47f5d61c39460
+SHA256: 4cd6262abdc7136bc7b54379f6b092d3cff0c67ab8c1427e350df392c916f5ab
+Size: 797484
+
+Package: gap
+Architecture: aarch64
+Installed-Size: 4072
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.10.2-1
+Homepage: https://www.gap-system.org/
+Breaks: gap-dev
+Depends: readline, libgmp, zlib
+Replaces: gap-dev
+Description: GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory
+Filename: aarch64/gap_4.10.2-1_aarch64.deb
+SHA1: 1aac5c36d42d6aeacbd1f62b798c544c5a933e60
+SHA256: b1587b1ebead92b0538fde4e1952f2a0d3d9050ffcb6d6a214f43af415d73cab
+Size: 655546
+
+Package: gap-static
+Architecture: aarch64
+Installed-Size: 2880
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.10.2-1
+Homepage: https://www.gap-system.org/
+Depends: gap (= 4.10.2-1)
+Description: Static libraries for gap
+Filename: aarch64/gap-static_4.10.2-1_aarch64.deb
+SHA1: 21b820d9b5ef5f4bb74c0e350a64effeaf9be06c
+SHA256: 5022018c8d31cd6b56794caafbeac254caf36f07eec2c00659b90568bbd6a34d
+Size: 525178
+
+Package: gdal
+Architecture: aarch64
+Installed-Size: 20996
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 3.0.1-1
+Homepage: https://gdal.org
+Breaks: gdal-dev
+Depends: libc++, openjpeg, libcurl, libtiff, libpng, proj, libiconv, libsqlite, libgeos
+Replaces: gdal-dev
+Description: A translator library for raster and vector geospatial data formats
+Filename: aarch64/gdal_3.0.1-1_aarch64.deb
+SHA1: c7e270816777918819921bc6074c2a88d44c3696
+SHA256: d5dc95dd13faa768aeefb5c4afd630edc5c2d5f9e540fbf7734505a402af4f77
+Size: 4711620
+
+Package: gdal-static
+Architecture: aarch64
+Installed-Size: 45976
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 3.0.1-1
+Homepage: https://gdal.org
+Depends: gdal (= 3.0.1-1)
+Description: Static libraries for gdal
+Filename: aarch64/gdal-static_3.0.1-1_aarch64.deb
+SHA1: 92fb6d4ad8d708133712c55f2d662a9e22351e05
+SHA256: 6cec0505698c45eda960714a01e05232ee5a5d6e69a9803608a43b530fe0ecf9
+Size: 6460570
+
+Package: gnucap
+Architecture: aarch64
+Installed-Size: 2668
+Maintainer: Henrik Grimler @Grimler91
+Version: 20171003-4
+Homepage: https://www.gnu.org/software/gnucap/gnucap.html
+Breaks: gnucap-dev
+Depends: libc++, readline
+Replaces: gnucap-dev
+Description: The Gnu Circuit Analysis Package
+Filename: aarch64/gnucap_20171003-4_aarch64.deb
+SHA1: 1666c57aff5dbf0cdb2301954c4a0ecab2e0c743
+SHA256: 98e7d0b83f17b1af03a591a2299d9d5dbc5ca079fc7d28c84b6f01817f49ce82
+Size: 555196
+
+Package: libgeos
+Architecture: aarch64
+Installed-Size: 4108
+Maintainer: Henrik Grimler @Grimler91
+Version: 3.7.2-3
+Homepage: https://geos.osgeo.org/
+Breaks: libgeos-dev
+Depends: libc++
+Replaces: libgeos-dev
+Description: Geometry Engine, C++ port of the Java Topology Suite
+Filename: aarch64/libgeos_3.7.2-3_aarch64.deb
+SHA1: 10ae7285abdd14dc135cec6b53389d11d4f36298
+SHA256: 4ebfbcf92b07c5d34e85a14974210772b2b8af2003fa055da4fcab407e2e4c1f
+Size: 564214
+
+Package: libgeos-static
+Architecture: aarch64
+Installed-Size: 6572
+Maintainer: Henrik Grimler @Grimler91
+Version: 3.7.2-3
+Homepage: https://geos.osgeo.org/
+Depends: libgeos (= 3.7.2-3)
+Description: Static libraries for libgeos
+Filename: aarch64/libgeos-static_3.7.2-3_aarch64.deb
+SHA1: 530c83652827d72bf3f83f2868e360d837713584
+SHA256: 0b4fb0653c4eb39ae3da41602974b370985d09646bc8f529a3bb7844f88ceffc
+Size: 640808
+
+Package: libhdf5
+Architecture: aarch64
+Installed-Size: 52568
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.5-2
+Homepage: https://portal.hdfgroup.org/display/support
+Breaks: libhdf5-dev
+Depends: libc++, libzopfli
+Replaces: libhdf5-dev
+Description: Hierarchical Data Format 5 (HDF5)
+Filename: aarch64/libhdf5_1.10.5-2_aarch64.deb
+SHA1: 2b083798762d0329fcbfdce61ef6fd2f0e5f861b
+SHA256: c7ec81c9a8a86466304e421d1e2c46203b0a8fdba295635f3f1f9650cc1c30b0
+Size: 4341742
+
+Package: libhdf5-static
+Architecture: aarch64
+Installed-Size: 11060
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.5-2
+Homepage: https://portal.hdfgroup.org/display/support
+Depends: libhdf5 (= 1.10.5-2)
+Description: Static libraries for libhdf5
+Filename: aarch64/libhdf5-static_1.10.5-2_aarch64.deb
+SHA1: e11e876976c573d2e6e06295c98c939388ad3789
+SHA256: c41f6c74255a8e71111351e945ae43d97ec607c849568fc09ad35265c7a3822a
+Size: 1292718
+
+Package: mapserver
+Architecture: aarch64
+Installed-Size: 6620
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 7.4.1-1
+Homepage: https://mapserver.org/
+Breaks: mapserver-dev
+Depends: libc++, libiconv, freetype, libcurl, libcairo, libxml2, openjpeg, proj, gdal, libprotobuf-c
+Replaces: mapserver-dev
+Description: MapServer is CGI-based platform for publishing spatial data and interactive mapping applications to the web.
+Filename: aarch64/mapserver_7.4.1-1_aarch64.deb
+SHA1: 31c2788506eef02a418be30e7a7250653398e63e
+SHA256: d430b2398adbb56642061dcec1c95bccafccd7a4663bf2fe45b6044b6665d3c8
+Size: 1181410
+
+Package: netcdf-c
+Architecture: aarch64
+Installed-Size: 1676
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.7.1-1
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Breaks: netcdf-c-dev
+Depends: libhdf5, libcurl, openssl, libnghttp2
+Replaces: netcdf-c-dev
+Description: NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data
+Filename: aarch64/netcdf-c_4.7.1-1_aarch64.deb
+SHA1: 2265b8cd57a717ec83a58e93abcbd608409b1f53
+SHA256: 4aa8ed69606b4a799b4e9683f94d53322105ba0e9ec94398cb57bce83e348afa
+Size: 462664
+
+Package: netcdf-c-static
+Architecture: aarch64
+Installed-Size: 1804
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.7.1-1
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Depends: netcdf-c (= 4.7.1-1)
+Description: Static libraries for netcdf-c
+Filename: aarch64/netcdf-c-static_4.7.1-1_aarch64.deb
+SHA1: e419cd26265318aeb161f52f9c201ff229510f6e
+SHA256: d3debda105f70001776ff4a09dbb54b0e197d933c42b15efbd4b83a7b652c357
+Size: 330496
+
+Package: openbabel
+Architecture: aarch64
+Installed-Size: 19192
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.0
+Homepage: http://openbabel.org/wiki/Main_Page
+Breaks: openbabel-dev
+Depends: libc++, libcairo, libxml2, eigen, boost
+Replaces: openbabel-dev
+Description: Open Babel is a chemical toolbox designed to speak the many languages of chemical data
+Filename: aarch64/openbabel_3.0.0_aarch64.deb
+SHA1: 4a0c9233ff2c3150f6e06a69c60ff4a8d2b572d5
+SHA256: ec26678efecb68bd462f76654c6d6e29a7b30a92af2841bd420d28aba299b199
+Size: 3458566
+
+Package: openmpi
+Architecture: aarch64
+Installed-Size: 7144
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.0.2-1
+Homepage: https://www.open-mpi.org
+Breaks: openmpi-dev
+Depends: libandroid-shmem
+Replaces: openmpi-dev
+Description: The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners
+Filename: aarch64/openmpi_4.0.2-1_aarch64.deb
+SHA1: b239e38ae30d3a99feded715627cce3329f12b27
+SHA256: c6f383cfa8669f50699de9bc6371b7f50966079ef015e0f322e40ae8f989db19
+Size: 1900346
+
+Package: openmpi-static
+Architecture: aarch64
+Installed-Size: 11824
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.0.2-1
+Homepage: https://www.open-mpi.org
+Depends: openmpi (= 4.0.2-1)
+Description: Static libraries for openmpi
+Filename: aarch64/openmpi-static_4.0.2-1_aarch64.deb
+SHA1: 59fb1ba9c78c55bd7faef4050b4d000f70b8ea67
+SHA256: 6e0444d3c1bc6eeb963810100f286d659aac9eeec8541e6e9c25beff5ab06b4b
+Size: 1843450
+
+Package: openscad
+Architecture: aarch64
+Installed-Size: 5320
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2019.05-1
+Homepage: http://openscad.org/
+Depends: boost, cgal, double-conversion, fontconfig, harfbuzz, libzip
+Description: The programmers solid 3D CAD modeller (headless build)
+Filename: aarch64/openscad_2019.05-1_aarch64.deb
+SHA1: 994a721232a863640fd0da37ab87353a3a82ceae
+SHA256: 0127986982b0ba045ddfbbeceaec38d80d8938be361de692f162108c1be62c8e
+Size: 1027266
+
+Package: osmctools
+Architecture: aarch64
+Installed-Size: 304
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9-1
+Homepage: https://gitlab.com/osm-c-tools/osmctools
+Depends: zlib
+Description: Simple tools for OpenStreetMap processing
+Filename: aarch64/osmctools_0.9-1_aarch64.deb
+SHA1: 7683fc31edde8801f93380b154256d54e3b9fdbc
+SHA256: 03c0fb4a99ee0bddecf7e6f1b4ac090ea6b6230f80f47c48be74ef0f31d5f84d
+Size: 86654
+
+Package: proj
+Architecture: aarch64
+Installed-Size: 8692
+Maintainer: Henrik Grimler @Grimler91
+Version: 6.2.0-1
+Homepage: https://proj.org
+Breaks: proj-dev
+Depends: libc++, libsqlite, sqlite
+Replaces: proj-dev
+Description: Generic coordinate transformation software
+Filename: aarch64/proj_6.2.0-1_aarch64.deb
+SHA1: fe9fa17ace3250b078ef2e2096ec3a1bbc97a171
+SHA256: 353857f161e3f07df5143248fbc7f9df5756ecd10335813ad128ff26cf6b5e62
+Size: 1442894
+

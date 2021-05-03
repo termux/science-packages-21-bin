@@ -1,0 +1,293 @@
+Package: cgal
+Architecture: x86_64
+Installed-Size: 44112
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.14.1-1
+Homepage: https://www.cgal.org/
+Depends: boost, libc++, libgmp, libmpfr, zlib
+Description: Computational Geometry Algorithms Library
+Filename: x86_64/cgal_4.14.1-1_x86_64.deb
+SHA1: 0b51717416b433c5ca44f809f68568bee19da0bd
+SHA256: 92149ca7fabe1b18b46bbbb3d07a82a699786ddd1b8a3912c8120e41130470d5
+Size: 4708608
+
+Package: double-conversion
+Architecture: x86_64
+Installed-Size: 232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.5
+Homepage: https://github.com/google/double-conversion
+Description: Binary-decimal and decimal-binary routines for IEEE doubles
+Filename: x86_64/double-conversion_3.1.5_x86_64.deb
+SHA1: 24272689e34bf0fcd01c154de915042bace1ffce
+SHA256: 2e0fd7916eae94255a27002081a4b33e5dd6a28e0421b8f7276bdbfb088245b9
+Size: 48500
+
+Package: eigen
+Architecture: x86_64
+Installed-Size: 7980
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.7-2
+Homepage: http://eigen.tuxfamily.org
+Breaks: eigen-dev
+Replaces: eigen-dev
+Description: Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms
+Filename: x86_64/eigen_3.3.7-2_x86_64.deb
+SHA1: 90611af06701e54b90afd9986e98d86323ea99f0
+SHA256: e4b47d4afd3d42e06dcaca1538d43a988595aef3155d39f68faacfd5c30d2395
+Size: 797494
+
+Package: gap-static
+Architecture: x86_64
+Installed-Size: 2792
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.10.2-1
+Homepage: https://www.gap-system.org/
+Depends: gap (= 4.10.2-1)
+Description: Static libraries for gap
+Filename: x86_64/gap-static_4.10.2-1_x86_64.deb
+SHA1: 6ec4c1f22799012570148e80d25f998571fc2f58
+SHA256: a6de9ab7e05e5694226d859ea4918749d1343ccc19d8a65dabacf44f8d8b6a1b
+Size: 549718
+
+Package: gap
+Architecture: x86_64
+Installed-Size: 4552
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.10.2-1
+Homepage: https://www.gap-system.org/
+Breaks: gap-dev
+Depends: readline, libgmp, zlib
+Replaces: gap-dev
+Description: GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory
+Filename: x86_64/gap_4.10.2-1_x86_64.deb
+SHA1: 15f0ee35157002e932084efd3aeb6b150251b570
+SHA256: b7cf525bd976af5993258c4591c6f81614e05c22653098590293c8e6818bdef1
+Size: 784514
+
+Package: gdal-static
+Architecture: x86_64
+Installed-Size: 46032
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 3.0.1-1
+Homepage: https://gdal.org
+Depends: gdal (= 3.0.1-1)
+Description: Static libraries for gdal
+Filename: x86_64/gdal-static_3.0.1-1_x86_64.deb
+SHA1: 4ca5fe6f3f76365de66c4a731e12b0b4499c6b03
+SHA256: 05af13366b9fa7c8ea004629d0373b4524b0b573d1e6a3baba2b9d74fe582eaa
+Size: 6658408
+
+Package: gdal
+Architecture: x86_64
+Installed-Size: 21704
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 3.0.1-1
+Homepage: https://gdal.org
+Breaks: gdal-dev
+Depends: libc++, openjpeg, libcurl, libtiff, libpng, proj, libiconv, libsqlite, libgeos
+Replaces: gdal-dev
+Description: A translator library for raster and vector geospatial data formats
+Filename: x86_64/gdal_3.0.1-1_x86_64.deb
+SHA1: b0ccc043175fe684ad9ada769b2cd317ec3e8c5f
+SHA256: 5e0a64a8292682e2fb6d43393222ea35d67d2f4fc8bce64a9a28b7f33adef0ec
+Size: 5349574
+
+Package: gnucap
+Architecture: x86_64
+Installed-Size: 2980
+Maintainer: Henrik Grimler @Grimler91
+Version: 20171003-4
+Homepage: https://www.gnu.org/software/gnucap/gnucap.html
+Breaks: gnucap-dev
+Depends: libc++, readline
+Replaces: gnucap-dev
+Description: The Gnu Circuit Analysis Package
+Filename: x86_64/gnucap_20171003-4_x86_64.deb
+SHA1: a7048c2e98d83a9587d180f77694184fe3533d82
+SHA256: 93195acf4f6388e5843edad03e0c917992e5f34dd2b98e633cf531c5c444a493
+Size: 642618
+
+Package: libgeos-static
+Architecture: x86_64
+Installed-Size: 6404
+Maintainer: Henrik Grimler @Grimler91
+Version: 3.7.2-3
+Homepage: https://geos.osgeo.org/
+Depends: libgeos (= 3.7.2-3)
+Description: Static libraries for libgeos
+Filename: x86_64/libgeos-static_3.7.2-3_x86_64.deb
+SHA1: 57b1bbb5839dc912bf93c46b981204acf3c60d93
+SHA256: 6ec065b135c8f78c710912ffe0917c5d30bdee0e93cb50af84460e9d656496ca
+Size: 651490
+
+Package: libgeos
+Architecture: x86_64
+Installed-Size: 4156
+Maintainer: Henrik Grimler @Grimler91
+Version: 3.7.2-3
+Homepage: https://geos.osgeo.org/
+Breaks: libgeos-dev
+Depends: libc++
+Replaces: libgeos-dev
+Description: Geometry Engine, C++ port of the Java Topology Suite
+Filename: x86_64/libgeos_3.7.2-3_x86_64.deb
+SHA1: a6bf2b47524b13495780553667eb9a34cff7915d
+SHA256: 30497fce8b2810c508c843f9d078f227e1db6866bc6325e4ba1d70141b20f03a
+Size: 628224
+
+Package: libhdf5-static
+Architecture: x86_64
+Installed-Size: 9296
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.5-2
+Homepage: https://portal.hdfgroup.org/display/support
+Depends: libhdf5 (= 1.10.5-2)
+Description: Static libraries for libhdf5
+Filename: x86_64/libhdf5-static_1.10.5-2_x86_64.deb
+SHA1: aa25d7cf01a5ee4e54a9ed8df8a700a44085896e
+SHA256: 5091a4304575842459b69cb56b5aafef5beda363a70d99d7873a0751c8cba144
+Size: 1339144
+
+Package: libhdf5
+Architecture: x86_64
+Installed-Size: 55672
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.5-2
+Homepage: https://portal.hdfgroup.org/display/support
+Breaks: libhdf5-dev
+Depends: libc++, libzopfli
+Replaces: libhdf5-dev
+Description: Hierarchical Data Format 5 (HDF5)
+Filename: x86_64/libhdf5_1.10.5-2_x86_64.deb
+SHA1: 6a2c404f3db7c475feefd6389df009fc7efb8933
+SHA256: c5ec45bc215096e6bd091aff4b230dc7d56bf61f966d143b3c12d00692f422a0
+Size: 7297028
+
+Package: mapserver
+Architecture: x86_64
+Installed-Size: 6800
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 7.4.1-1
+Homepage: https://mapserver.org/
+Breaks: mapserver-dev
+Depends: libc++, libiconv, freetype, libcurl, libcairo, libxml2, openjpeg, proj, gdal, libprotobuf-c
+Replaces: mapserver-dev
+Description: MapServer is CGI-based platform for publishing spatial data and interactive mapping applications to the web.
+Filename: x86_64/mapserver_7.4.1-1_x86_64.deb
+SHA1: 487f5ef05707d12e4888f9a07aa0b55f8e7ed640
+SHA256: f6b91c6c74852f115915cc271b72cb9efc73e48bec405fc84eef0d278f649aea
+Size: 1295534
+
+Package: netcdf-c-static
+Architecture: x86_64
+Installed-Size: 1976
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.7.1-1
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Depends: netcdf-c (= 4.7.1-1)
+Description: Static libraries for netcdf-c
+Filename: x86_64/netcdf-c-static_4.7.1-1_x86_64.deb
+SHA1: f9ff97b28a68b1eafac3565c0b34abfc2a438643
+SHA256: bf5ac8988da4b0125856fc86310fedbc399adfa42d1ee9b82434c83eb300c65c
+Size: 364986
+
+Package: netcdf-c
+Architecture: x86_64
+Installed-Size: 1872
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.7.1-1
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Breaks: netcdf-c-dev
+Depends: libhdf5, libcurl, openssl, libnghttp2
+Replaces: netcdf-c-dev
+Description: NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data
+Filename: x86_64/netcdf-c_4.7.1-1_x86_64.deb
+SHA1: 4e8549db7f6266e266a3c864c4b02e1937d33a08
+SHA256: 6c3a6bfd8fe9ee722afe4645b68dcfbfea0d33531e8646eb23a8d7204ca6ee63
+Size: 539284
+
+Package: openbabel
+Architecture: x86_64
+Installed-Size: 19612
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.0
+Homepage: http://openbabel.org/wiki/Main_Page
+Breaks: openbabel-dev
+Depends: libc++, libcairo, libxml2, eigen, boost
+Replaces: openbabel-dev
+Description: Open Babel is a chemical toolbox designed to speak the many languages of chemical data
+Filename: x86_64/openbabel_3.0.0_x86_64.deb
+SHA1: 64475432522962b0e5f3ce329fa1ea92fe8f5055
+SHA256: 5c4332a3ac89819ae1aa844646d1a94971df6dd523b59e7a31b287472c871efa
+Size: 3841802
+
+Package: openmpi-static
+Architecture: x86_64
+Installed-Size: 11880
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.0.2-1
+Homepage: https://www.open-mpi.org
+Depends: openmpi (= 4.0.2-1)
+Description: Static libraries for openmpi
+Filename: x86_64/openmpi-static_4.0.2-1_x86_64.deb
+SHA1: 335c387043dd10603d9164813173ba7ceef13133
+SHA256: 97d93548d27561fb2782609972ee5005e25f1fe5abe7a592cdd6c7ecb80c51bb
+Size: 1950090
+
+Package: openmpi
+Architecture: x86_64
+Installed-Size: 7980
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.0.2-1
+Homepage: https://www.open-mpi.org
+Breaks: openmpi-dev
+Depends: libandroid-shmem
+Replaces: openmpi-dev
+Description: The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners
+Filename: x86_64/openmpi_4.0.2-1_x86_64.deb
+SHA1: 10817e848b035dee918b787bc705fe22c65e2bb0
+SHA256: 06db7ab7fbd85cf92ffd1a842fafbf6cef2e58f6798878caaf68063198b7a2a7
+Size: 2223704
+
+Package: openscad
+Architecture: x86_64
+Installed-Size: 5536
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2019.05-1
+Homepage: http://openscad.org/
+Depends: boost, cgal, double-conversion, fontconfig, harfbuzz, libzip
+Description: The programmers solid 3D CAD modeller (headless build)
+Filename: x86_64/openscad_2019.05-1_x86_64.deb
+SHA1: 23f9ed5811321acb8d7055b14a4755a5ed3391e4
+SHA256: 10004847fdd3b80cbf612c1244dd6a0fc699eb84ae19e7b8aca0a9d0749ea912
+Size: 1219680
+
+Package: osmctools
+Architecture: x86_64
+Installed-Size: 308
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9-1
+Homepage: https://gitlab.com/osm-c-tools/osmctools
+Depends: zlib
+Description: Simple tools for OpenStreetMap processing
+Filename: x86_64/osmctools_0.9-1_x86_64.deb
+SHA1: 0b4a180f115774add4e0a8d2745d36c8afa375e8
+SHA256: 6f88b98f1ed0d724bbd98d67d24a0c99cec038086a48765fb2bc079e0b70af97
+Size: 94704
+
+Package: proj
+Architecture: x86_64
+Installed-Size: 8812
+Maintainer: Henrik Grimler @Grimler91
+Version: 6.2.0-1
+Homepage: https://proj.org
+Breaks: proj-dev
+Depends: libc++, libsqlite, sqlite
+Replaces: proj-dev
+Description: Generic coordinate transformation software
+Filename: x86_64/proj_6.2.0-1_x86_64.deb
+SHA1: b157493a17c02c6e331ded2bb8c0d8a33e481050
+SHA256: b6909f3ea989cc7a7cc3d23ad62c7601580330477fc2a5e99f46b6a01a905780
+Size: 1557802
+

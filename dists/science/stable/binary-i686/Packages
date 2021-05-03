@@ -1,0 +1,293 @@
+Package: cgal
+Architecture: i686
+Installed-Size: 44076
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.14.1-1
+Homepage: https://www.cgal.org/
+Depends: boost, libc++, libgmp, libmpfr, zlib
+Description: Computational Geometry Algorithms Library
+Filename: i686/cgal_4.14.1-1_i686.deb
+SHA1: ac5e5c9c1dc48c0d2c153771635f44554ee48c93
+SHA256: 2d892eecc3cbb8d59e5e2b74d79483b7b41c6e5db58cb7521b00b68098927fc0
+Size: 4701734
+
+Package: double-conversion
+Architecture: i686
+Installed-Size: 232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.5
+Homepage: https://github.com/google/double-conversion
+Description: Binary-decimal and decimal-binary routines for IEEE doubles
+Filename: i686/double-conversion_3.1.5_i686.deb
+SHA1: d02021ae3bdf6aa377086d27614b3dc73f15bcfc
+SHA256: 76eb66eafd4d518d035faa6cc2977ac71c39eb78e9bbc220de70a499ed9ccd38
+Size: 51342
+
+Package: eigen
+Architecture: i686
+Installed-Size: 7980
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.7-2
+Homepage: http://eigen.tuxfamily.org
+Breaks: eigen-dev
+Replaces: eigen-dev
+Description: Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms
+Filename: i686/eigen_3.3.7-2_i686.deb
+SHA1: 54c8fd29b7533d2986ed53ad94686b5849de9530
+SHA256: 985ddd8de55aba1c62388dd332f3ee5c3dad2f1a9d8d00ad56cbb8432345e4e9
+Size: 797530
+
+Package: gap
+Architecture: i686
+Installed-Size: 3752
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.10.2-1
+Homepage: https://www.gap-system.org/
+Breaks: gap-dev
+Depends: readline, libgmp, zlib
+Replaces: gap-dev
+Description: GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory
+Filename: i686/gap_4.10.2-1_i686.deb
+SHA1: bc061418662bd75ea17b58a31f368dcc48cdc4c2
+SHA256: f3a3c70650a8795fa360d244b9009a17559ecce30c1128b4709cba6acc24eb4f
+Size: 700600
+
+Package: gap-static
+Architecture: i686
+Installed-Size: 1988
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.10.2-1
+Homepage: https://www.gap-system.org/
+Depends: gap (= 4.10.2-1)
+Description: Static libraries for gap
+Filename: i686/gap-static_4.10.2-1_i686.deb
+SHA1: 138906cb898160faf5acb30c8508b070c50e7af3
+SHA256: 4dbb45020af5bd906c6a3a4be296907c42ddf3c410ad2a08b64a23e8e6a2a63a
+Size: 519300
+
+Package: gdal
+Architecture: i686
+Installed-Size: 19792
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 3.0.1-1
+Homepage: https://gdal.org
+Breaks: gdal-dev
+Depends: libc++, openjpeg, libcurl, libtiff, libpng, proj, libiconv, libsqlite, libgeos
+Replaces: gdal-dev
+Description: A translator library for raster and vector geospatial data formats
+Filename: i686/gdal_3.0.1-1_i686.deb
+SHA1: 3160026b6aa3e9a2a9d6fc23a1c73e9e5f88a495
+SHA256: 9eb87e28e747beff7e230b0a1bcf9d1c5070f8d252f4c8c1894ba49b80699965
+Size: 5230374
+
+Package: gdal-static
+Architecture: i686
+Installed-Size: 35768
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 3.0.1-1
+Homepage: https://gdal.org
+Depends: gdal (= 3.0.1-1)
+Description: Static libraries for gdal
+Filename: i686/gdal-static_3.0.1-1_i686.deb
+SHA1: 7ad64f56a8242c4082ef190f368676bd5238d764
+SHA256: ebd414b44b337991ba01b3802250e278e7308768864517c9934430f927080973
+Size: 6585998
+
+Package: gnucap
+Architecture: i686
+Installed-Size: 2880
+Maintainer: Henrik Grimler @Grimler91
+Version: 20171003-4
+Homepage: https://www.gnu.org/software/gnucap/gnucap.html
+Breaks: gnucap-dev
+Depends: libc++, readline
+Replaces: gnucap-dev
+Description: The Gnu Circuit Analysis Package
+Filename: i686/gnucap_20171003-4_i686.deb
+SHA1: f8bca8f5e5d7e83cc1123ba7c362594e3ff1eae9
+SHA256: 7f167205610ed0b12863bab66f99fa7773036be73f730362e9e0edbbfa93c277
+Size: 630168
+
+Package: libgeos
+Architecture: i686
+Installed-Size: 3996
+Maintainer: Henrik Grimler @Grimler91
+Version: 3.7.2-3
+Homepage: https://geos.osgeo.org/
+Breaks: libgeos-dev
+Depends: libc++
+Replaces: libgeos-dev
+Description: Geometry Engine, C++ port of the Java Topology Suite
+Filename: i686/libgeos_3.7.2-3_i686.deb
+SHA1: 81300e642fae89dc26682ac00d2453f5f4db2e26
+SHA256: c01e85bf8e77b5c80a599583e038682968ae5585ce1297a8978a09b6a144f1be
+Size: 625518
+
+Package: libgeos-static
+Architecture: i686
+Installed-Size: 5028
+Maintainer: Henrik Grimler @Grimler91
+Version: 3.7.2-3
+Homepage: https://geos.osgeo.org/
+Depends: libgeos (= 3.7.2-3)
+Description: Static libraries for libgeos
+Filename: i686/libgeos-static_3.7.2-3_i686.deb
+SHA1: fae80da157867db25ebb16b3fa29c5b469c198ad
+SHA256: 5499d75db7d403856297ac058f9dec80f60c9d960cf4cbc3f15013f9bf5b295d
+Size: 636190
+
+Package: libhdf5
+Architecture: i686
+Installed-Size: 54836
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.5-2
+Homepage: https://portal.hdfgroup.org/display/support
+Breaks: libhdf5-dev
+Depends: libc++, libzopfli
+Replaces: libhdf5-dev
+Description: Hierarchical Data Format 5 (HDF5)
+Filename: i686/libhdf5_1.10.5-2_i686.deb
+SHA1: e3f9b292ce1ddf8a6a828b933a0b8c2674ac4c74
+SHA256: 4d5bd3e0aa51cf93cd3eb67637ff5ca246ff2d0e692dbf2c241b9bbe9cd8c14a
+Size: 4385094
+
+Package: libhdf5-static
+Architecture: i686
+Installed-Size: 6512
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.5-2
+Homepage: https://portal.hdfgroup.org/display/support
+Depends: libhdf5 (= 1.10.5-2)
+Description: Static libraries for libhdf5
+Filename: i686/libhdf5-static_1.10.5-2_i686.deb
+SHA1: 08f71d58d517e47e1e6e3bdaed99de004908a5fe
+SHA256: 14c7df333cd5279084ada05bba04c08b57a809a093dc03ea5cb692cf4157f5c0
+Size: 1346048
+
+Package: mapserver
+Architecture: i686
+Installed-Size: 6696
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 7.4.1-1
+Homepage: https://mapserver.org/
+Breaks: mapserver-dev
+Depends: libc++, libiconv, freetype, libcurl, libcairo, libxml2, openjpeg, proj, gdal, libprotobuf-c
+Replaces: mapserver-dev
+Description: MapServer is CGI-based platform for publishing spatial data and interactive mapping applications to the web.
+Filename: i686/mapserver_7.4.1-1_i686.deb
+SHA1: 56f5668948d0f91702fc10cd28d40a4d6eb22afc
+SHA256: 5501e7d1a7c471583e530aece8d4afd48498b227dd1ef3bc75b197387f5a62de
+Size: 1276654
+
+Package: netcdf-c
+Architecture: i686
+Installed-Size: 1684
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.7.1-1
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Breaks: netcdf-c-dev
+Depends: libhdf5, libcurl, openssl, libnghttp2
+Replaces: netcdf-c-dev
+Description: NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data
+Filename: i686/netcdf-c_4.7.1-1_i686.deb
+SHA1: 14f12c460f12bb651532ba31c7ec076ca3498f80
+SHA256: 91e5f5ae91970ac2b06ed160bf46c261011526c5476e4df2e36986b9b4ea2abf
+Size: 495282
+
+Package: netcdf-c-static
+Architecture: i686
+Installed-Size: 1516
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.7.1-1
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Depends: netcdf-c (= 4.7.1-1)
+Description: Static libraries for netcdf-c
+Filename: i686/netcdf-c-static_4.7.1-1_i686.deb
+SHA1: 093b68732bd0e5b31f4d4226a5c4a7406a9dd2c3
+SHA256: eda6e325315cbfa6bfa93d09a690025f6f650c138909045a52120705c0388c31
+Size: 339702
+
+Package: openbabel
+Architecture: i686
+Installed-Size: 18616
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.0
+Homepage: http://openbabel.org/wiki/Main_Page
+Breaks: openbabel-dev
+Depends: libc++, libcairo, libxml2, eigen, boost
+Replaces: openbabel-dev
+Description: Open Babel is a chemical toolbox designed to speak the many languages of chemical data
+Filename: i686/openbabel_3.0.0_i686.deb
+SHA1: 363731f2da35b8cbea457f964ecb193476ec4d6e
+SHA256: d08c99b9e0cb64f4bef548bfdb39a78c7cc9521363ec98568a4ee728759aea29
+Size: 3745784
+
+Package: openmpi
+Architecture: i686
+Installed-Size: 6992
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.0.2-1
+Homepage: https://www.open-mpi.org
+Breaks: openmpi-dev
+Depends: libandroid-shmem
+Replaces: openmpi-dev
+Description: The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners
+Filename: i686/openmpi_4.0.2-1_i686.deb
+SHA1: 3dbc7c9f16e44a2521785913eea9499eef3de984
+SHA256: 208a293c64eaaac62d6ba7f6869c121378ec807e8bddb55a303b40f5cd7896f0
+Size: 1981646
+
+Package: openmpi-static
+Architecture: i686
+Installed-Size: 8268
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.0.2-1
+Homepage: https://www.open-mpi.org
+Depends: openmpi (= 4.0.2-1)
+Description: Static libraries for openmpi
+Filename: i686/openmpi-static_4.0.2-1_i686.deb
+SHA1: 3b4f683cbf79aac660484cfc7141d99d7a11868c
+SHA256: 5abdf39be0ee341c8cf3e46e42e516b438accedcbc2757bd04fc50393cd48a59
+Size: 1761930
+
+Package: openscad
+Architecture: i686
+Installed-Size: 5636
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2019.05-1
+Homepage: http://openscad.org/
+Depends: boost, cgal, double-conversion, fontconfig, harfbuzz, libzip
+Description: The programmers solid 3D CAD modeller (headless build)
+Filename: i686/openscad_2019.05-1_i686.deb
+SHA1: ff7bbd60e27a1def7deaf6bba81389224c2209bb
+SHA256: d862e2dfbf46116b747244d53213a9c0e611bb99d8178297d025f72687686b3b
+Size: 1225848
+
+Package: osmctools
+Architecture: i686
+Installed-Size: 300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9-1
+Homepage: https://gitlab.com/osm-c-tools/osmctools
+Depends: zlib
+Description: Simple tools for OpenStreetMap processing
+Filename: i686/osmctools_0.9-1_i686.deb
+SHA1: 5de405a9fe5e1922e2467909b241af1abd2073be
+SHA256: 7586ba1882eaf051eeb8e88ea989b58390589257e4999d7851ffdcf1752613b2
+Size: 87942
+
+Package: proj
+Architecture: i686
+Installed-Size: 8680
+Maintainer: Henrik Grimler @Grimler91
+Version: 6.2.0-1
+Homepage: https://proj.org
+Breaks: proj-dev
+Depends: libc++, libsqlite, sqlite
+Replaces: proj-dev
+Description: Generic coordinate transformation software
+Filename: i686/proj_6.2.0-1_i686.deb
+SHA1: a199ec2c97c616929aae2cc0dfe0bfc3dacc4db2
+SHA256: 694161866626b93d44bce182d18464b3da80cba8b30c6b7e75b133903af3eba9
+Size: 1549478
+
