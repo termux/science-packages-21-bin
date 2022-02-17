@@ -15,5 +15,5 @@ deb https://dl.bintray.com/grimler/science-packages-21 science stable
 to
 
 ```
-deb https://termux.com/science-packages-21-bin science stable
+deb https://termux.org/science-packages-21-bin science stable
 ```
